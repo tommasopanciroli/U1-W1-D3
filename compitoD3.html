@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ricetta per la focaccia</title>
     <link rel="stylesheet" href="./assets/compitoD3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <img src="./logo(1).jpg" alt="Logo" />
-      <p>Part of <strong>A SIMPLY FABULOUS THANKSGIVING</strong></p>
+      <img id="logo" src="./logo(1).jpg" alt="Logo" />
+      <p id="yellowbandbg">
+        <br>Part of <strong>A SIMPLY FABULOUS THANKSGIVING</strong>
+      </p>
     </header>
     <main>
       <section>
@@ -29,10 +37,15 @@
           <img id="focaccia" src="/focaccia.jpg" alt="Focaccia" />
           <figcaption id="figcaption">Image: Sally Vegas</figcaption>
         </div>
-        <p>FEATURED IN:</p>
-        <a href="#">Fresh Cranberry Recipes That Go Beyond sauce</a>
-        <article>
-          <h2>Ingredients</h2>
+        <div class="yellowb">
+          <p id="featured">
+            FEATURED IN: <br /><a href="#"
+              >Fresh Cranberry Recipes That Go Beyond sauce</a
+            >
+          </p>
+        </div>
+        <article class="firstfont">
+          <h2 id="cyanb">Ingredients</h2>
           <div>
             <p><strong>For the focaccia:</strong></p>
             <ul>
@@ -57,7 +70,7 @@
             </ul>
           </div>
         </article>
-        <article>
+        <article class="secondfont">
           <h2>Method</h2>
           <ol>
             <li><strong>Make the focaccia dough</strong></li>

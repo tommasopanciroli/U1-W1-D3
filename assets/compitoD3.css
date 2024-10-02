@@ -3,10 +3,20 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    font-family: "Raleway";
+}
+
+header {
+    text-align: center;
 }
 
 #figcaption {
     text-align: center;
+    color: gray;
+    }
+
+h1{
+text-align: center;
 }
 
 #focaccia{
@@ -14,3 +24,31 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+#yellowbandbg{
+    background-color: rgb(253, 253, 218);
+    border-style: solid;
+    border-top-color: rgb(255, 217, 0);
+    border-bottom: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-width: 1px;
+}
+
+
+#featured {
+    color: brown;
+    border-style: solid;
+    border-bottom: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-color: rgb(255, 217, 0);
+    border-width: 1px;
+    margin-left: auto;
+}
+
+#logo {
+    width: 200px;
+}
+
+
