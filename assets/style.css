@@ -1,5 +1,20 @@
 #last-li {
     /* selettore con id: molto specifico*/
     color: red;
-    
+    font-size: 1.35em;
+   font-family: 'Montserrat', 'Edu Australia VIC WA NT Hand Dots';
+}
+
+
+.test {
+
+}
+
+p{
+
+}
+
+h1 {
+    color: red;
+    text-align: center;
 }
