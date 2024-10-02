@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introduzione CSS</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <style>
+      /* CSS Incorporato */
+      p {
+        color: white;
+        background-color: lightsalmon;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -16,10 +24,20 @@
           È importante conoscere i tre modi per appilacare delle regole CSS ad
           un documento HTML.
         </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse nobis
+          corrupti ullam eveniet, pariatur non a inventore dolores repudiandae
+          neque officiis ipsum voluptatibus obcaecati illum aperiam consequatur,
+          maiores possimus totam.
+        </p>
         <ol>
-          <li>Stile 'inline' (da NON usare)</li>
+          <!-- CSS Inline -->
+          <li style="color: purple">Stile 'inline' (da NON usare)</li>
+          <!-- CSS Incorporato -->
           <li>Stile applicato tramite un tag all'interno del tag 'head'</li>
-          <li>
+          <!-- CSS Esterno -->
+          <li id="last-li">
+            <!-- id viene inserito per riconoscere il valore sul foglio CSS -->
             Stile applicato su un file esterno al documento HTML e inserito
             tramite un link nel tag 'head'.
           </li>
